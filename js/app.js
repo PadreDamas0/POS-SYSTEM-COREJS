@@ -1,4 +1,4 @@
-// Import or declare the Auth and Database variables before using them
+
 const Auth = {
   isLoggedIn: () => false,
   getCurrentUser: () => ({ role: "cashier" }),
