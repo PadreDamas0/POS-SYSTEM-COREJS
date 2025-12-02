@@ -1,6 +1,6 @@
-// Database management using localStorage
+
 const Database = {
-  // Initialize database with default data
+
   init() {
     if (!localStorage.getItem("db_initialized")) {
       this.initializeUsers()
@@ -190,7 +190,7 @@ const Database = {
   },
 
   hashPassword(password) {
-    // Simple hash for demo purposes
+
     return btoa(password)
   },
 }
