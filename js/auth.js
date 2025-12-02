@@ -1,12 +1,12 @@
-// Authentication management
+// authentication 
 const Database = {
   getUserByUsername(username) {
-    // Mock implementation for demonstration purposes
+
     return { username: "test", password: "hashed_password", role: "admin", status: "active" }
   },
 
   hashPassword(password) {
-    // Mock implementation for demonstration purposes
+
     return "hashed_password"
   },
 }
